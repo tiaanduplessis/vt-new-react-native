@@ -5247,17 +5247,6 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-"react-native-nrindy@https://github.com/arminghobadi/rnindy":
-  version "1.0.0"
-  resolved "https://github.com/arminghobadi/rnindy#bdb1e44374c240d3ddc13a32de3774e6d8a6e6d7"
-
-"react-native-rn-indy@https://github.com/arminghobadi/react-native-rn-indy#t":
-  version "1.0.0"
-  resolved "https://github.com/arminghobadi/react-native-rn-indy#bf48ed52132b57071c0507b411e2234c5e4c54db"
-  dependencies:
-    react "16.9.0"
-    react-native "0.61.5"
-
 react-native-sensitive-info@^5.5.3:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/react-native-sensitive-info/-/react-native-sensitive-info-5.5.3.tgz#0e1d19b0cb290bf86e37b855f4272c641ebbeb0f"
