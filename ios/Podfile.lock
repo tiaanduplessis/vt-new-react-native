@@ -182,6 +182,10 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
   - React-jsinspector (0.61.5)
+  - react-native-nrindy (1.0.0):
+    - React
+  - react-native-rn-indy (1.0.0):
+    - React
   - react-native-sensitive-info (5.5.3):
     - React
   - React-RCTActionSheet (0.61.5):
@@ -242,6 +246,8 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-nrindy (from `../node_modules/react-native-nrindy`)
+  - react-native-rn-indy (from `../node_modules/react-native-rn-indy`)
   - react-native-sensitive-info (from `../node_modules/react-native-sensitive-info`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -293,6 +299,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-nrindy:
+    :path: "../node_modules/react-native-nrindy"
+  react-native-rn-indy:
+    :path: "../node_modules/react-native-rn-indy"
   react-native-sensitive-info:
     :path: "../node_modules/react-native-sensitive-info"
   React-RCTActionSheet:
@@ -336,6 +346,8 @@ SPEC CHECKSUMS:
   React-jsi: f9126dd5818fbd8fbf869be9bbc1c0543973e1a1
   React-jsiexecutor: 752f034d0f007d1141a1c52ba9ef3fd9668fbfa7
   React-jsinspector: 044105eea064aec81adc5e4d777a8f6589e7d094
+  react-native-nrindy: 19cc7b8e35a938777535744fdcfbca045ce05801
+  react-native-rn-indy: 514fb28f1e5e16b3a520dfb741fd58a326a9e3cc
   react-native-sensitive-info: 55dfb76a47e1d4131d5139c2168f2f345a423c81
   React-RCTActionSheet: 49433f6e3659ba5d3ee650e44b9c18743ef9a7fc
   React-RCTAnimation: 12f86a4e3542032329366b03bca2cc254a7c64a9
@@ -351,6 +363,6 @@ SPEC CHECKSUMS:
   vcx: 91d2c396b6dfb0f77ea81ee3eca4685accc39885
   Yoga: 6af72bedeaea291a3a3717772d6d41836f23a1b9
 
-PODFILE CHECKSUM: b4a060d2111f7ce12da5fe5f87625fdc57817cf3
+PODFILE CHECKSUM: dd553ef166afebae95dda07c65d5739d03bdc3aa
 
 COCOAPODS: 1.5.3

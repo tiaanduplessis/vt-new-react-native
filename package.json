@@ -8,13 +8,15 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "pod": "cd ios && pod install && cd .. && cp -r ./sample-vcx/ ./ios/Pods/vcx"
+    "pod": "cd ios && pod install && cd .. && cp -r ./sample-vcx/ ./ios/Pods/Headers/Public/vcx && cp -r ./sample-vcx/ ./ios/Pods/Headers/Private/vcx "
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.3",
     "lodash.memoize": "^4.1.2",
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-nrindy": "https://github.com/arminghobadi/rnindy",
+    "react-native-rn-indy": "https://github.com/arminghobadi/react-native-rn-indy#t",
     "react-native-sensitive-info": "^5.5.3",
     "react-native-unique-id": "^2.0.0"
   },

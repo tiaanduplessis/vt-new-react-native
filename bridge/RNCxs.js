@@ -73,6 +73,7 @@ export async function simpleInit(): Promise<boolean> {
     wallet_name: walletPoolName.walletName,
     wallet_key,
   }
+  console.log('fuck', JSON.stringify(initConfig))
   const initResult: boolean = await RNIndy.init(JSON.stringify(initConfig))
   return initResult
 }

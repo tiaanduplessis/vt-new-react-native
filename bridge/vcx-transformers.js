@@ -21,10 +21,13 @@ import { secureSet, secureGet } from '../services/storage'
 // import { BigNumber } from 'bignumber.js'
 // import type { LedgerFeesData } from '../../store/ledger/type-ledger-store'
 
+
+
 const { RNIndy } = NativeModules
+// import RnIndy from 'react-native-rn-indy'
 
 export const paymentHandle = 0
-
+// console.log('fucking indy is ', Indy)
 export const WALLET_KEY = 'WALLET_KEY'
 export const getWalletKey = memoize(async function(): Promise<string> {
   try {
@@ -32,7 +35,9 @@ export const getWalletKey = memoize(async function(): Promise<string> {
     if (walletKey) {
       return walletKey
     }
-    console.log('rnindy is ', RNIndy)
+    // console.log('new module is ', RnIndy)
+    // console.log('native modules are ', NativeModules)
+    // console.log('rnindy is ', RNIndy)
     const lengthOfKey = 64
     walletKey = await RNIndy.createWalletKey(lengthOfKey)
     // createWalletKey sometimes returns with a whitespace character at the end so we need to trim it

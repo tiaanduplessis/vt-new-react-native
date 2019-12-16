@@ -9,7 +9,9 @@
 
 #import "AppDelegate.h"
 
-// #import "RNIndy.h"
+//#import <vcx/vcx/vcx.h>
+
+//#import "RNIndy.h"
 
 int main(int argc, char * argv[]) {
   @autoreleasepool {

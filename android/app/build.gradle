@@ -188,7 +188,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
-    compile 'com.evernym:vcx:1.0.0-26-10-2018T16-50@aar'
+    implementation 'com.evernym:vcx:1.0.0-26-10-2018T16-50@aar'
     androidTestImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support:support-annotations:26.1.0'
     implementation 'com.android.support:palette-v7:28.0.0'

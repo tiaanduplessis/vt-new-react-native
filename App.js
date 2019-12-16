@@ -7,6 +7,9 @@
  */
 
 import React from 'react';
+// import R from  'react-native-nrindy'
+import { NativeModules } from 'react-native'
+// import R from 'react-native-rn-indy'
 import {
   SafeAreaView,
   StyleSheet,
@@ -26,11 +29,14 @@ import {
 
 import { simpleInit } from './bridge/RNCxs'
 
+// import RnIndy from 'react-native-rn-indy'
+
 const App: () => React$Node = () => {
-  
+  console.log('+++++++rn inddddyyyy', NativeModules)
+  // console.log('native modules are ',NativeModules)
   console.log(simpleInit())
   return (
-    <>
+    <> 
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
